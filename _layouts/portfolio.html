@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section class="Work-item parent">
+	<h2>{{ page.title }}</h2>
+
+	<h3>Tech used  : {{ page.tech }}</h3>
+
+	{% if page.gif != null %}
+	<img src="{{ page.gif }}">
+	{% endif %}
+
+	<div id="link">
+		{% if page.launch != null %}
+		<a href="{{ page.launch }}" target="_blank">LAUNCH</a>
+		{% endif %}
+		{% if page.source != null %}
+		<a href="{{ page.source }}" target="_blank">GET CODE</a>
+		{% endif %}
+	</div>
+
+	{{ content }}
+
+	<br><br><br>
+
+</section>

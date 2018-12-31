@@ -1,0 +1,43 @@
+- name: La Musique
+  image: /assets/app-img/lamusic.png
+  link: /work/lamusic.html
+
+- name: Shield Life
+  image: /assets/app-img/slife.png
+  link: /work/slife.html
+
+- name: Maze Generator
+  image: /assets/app-img/maze.png
+  link: /work/maze.html
+
+- name: Firefly Sync
+  image: /assets/app-img/firefly.png
+  link: /work/firefly.html
+
+- name: Devanagari matrix flow
+  image: /assets/app-img/hindu.png
+  link: /work/hindu.html
+
+- name: Lorenz Attractor
+  image: /assets/app-img/lorenz.png
+  link: /work/lorenz.html
+
+- name: Stochastic Perlin Noise
+  image: /assets/app-img/perlin.png
+  link: /work/perlin.html
+
+- name: 3-D Biome
+  image: /assets/app-img/biome.png
+  link: /work/biome.html
+
+- name: ML Sketch Brush
+  image: /assets/app-img/robot.png
+  link: /work/robot.html
+
+- name: Snake Game
+  image: /assets/app-img/snake.png
+  link: /work/snake.html
+
+- name: Truchet’s tiling
+  image: /assets/app-img/truchet.png
+  link: /work/truchet.html

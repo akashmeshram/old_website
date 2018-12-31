@@ -1,0 +1,22 @@
+---
+layout: default
+title: Akash Meshram | Work 
+---
+
+<section class="Work-page parent">
+		
+		{% for item in site.data.data %}
+
+		<a href="{{ item.link }}">
+			<img src="{{ item.image }}">
+			<div id="child">
+				<h2>{{ item.name }}</h2>
+				<!-- <p>Somthing to write to about things.</p> -->
+			</div>
+		</a>
+
+		{% endfor %}
+
+</section>
+
+<br><br><br>
