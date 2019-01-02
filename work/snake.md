@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Snake Game
-launch: /
-source: /
+launch: https://akashmeshram.github.io/snake-game/
+source: https://github.com/akashmeshram/snake-game
 tech: JQuery, HTML
 gif: /assets/app-gif/snake.gif
 ---
