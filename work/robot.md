@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: ML SKETCH BRUSH
-launch: /
-source: /
+launch: https://akashmeshram.github.io/ML-SKETCH-BRUSH/
+source: https://github.com/akashmeshram/ML-SKETCH-BRUSH
 tech: ML, P5JS, WEB
 gif: /assets/app-gif/robot.gif
 ---
