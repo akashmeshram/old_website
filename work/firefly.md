@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: FIREFLY SYNC
-launch: /
-source: /
+launch: https://akashmeshram.github.io/FIREFLY-SYNC/
+source: https://github.com/akashmeshram/FIREFLY-SYNC
 tech: HTML, P5, WEB
 gif: /assets/app-gif/firefly.gif
 ---
