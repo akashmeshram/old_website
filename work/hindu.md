@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Devanagari matrix flow
-launch: /
-source: /
+launch: https://akashmeshram.github.io/DEVANAGARI-MATRIX-FLOW/
+source: https://github.com/akashmeshram/DEVANAGARI-MATRIX-FLOW
 tech: P5, WEB
 gif: /assets/app-gif/hindu.gif
 ---
