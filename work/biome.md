@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: 3-D Biome
-launch: /
-source: /
+launch: 
+source: https://github.com/akashmeshram/Biome
 tech: Processing, P3D
 gif: /assets/app-gif/biome.gif
 ---
