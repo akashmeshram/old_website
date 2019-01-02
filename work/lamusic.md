@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: LA MUSIQUE
-launch: /
-source: /
+launch: https://akashmeshram.github.io/La-Musique/
+source: https://github.com/akashmeshram/La-Musique
 tech: UI, MUSIC, WEB
 gif: /assets/app-gif/laMusic.gif
 ---
