@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Random Sébastien Truchet’s tiling
-launch: /
-source: /
+launch: https://akashmeshram.github.io/TRUCHET-S-TILING/
+source: https://github.com/akashmeshram/TRUCHET-S-TILING
 tech: UI, MUSIC, WEB
 gif: /assets/app-gif/truchet.gif
 ---
