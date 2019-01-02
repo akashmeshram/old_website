@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Maze Generator
-launch: /
-source: /
+launch: https://akashmeshram.github.io/Maze-Generator/
+source: https://github.com/akashmeshram/Maze-Generator
 tech: HTML, JQuery, Javascript
 gif: /assets/app-gif/maze.gif
 ---
