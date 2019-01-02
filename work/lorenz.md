@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Lorenz Attractor
-launch: /
-source: /
+launch: 
+source: https://github.com/akashmeshram/LORENZ-ATTRACTOR
 tech: JQuery, HTML
 gif: /assets/app-gif/lorenz.gif
 ---
