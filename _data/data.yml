@@ -22,6 +22,10 @@
   image: /assets/app-img/lorenz.png
   link: /work/lorenz.html
 
+- name: 2048 Puzzle
+  image: /assets/app-img/2048.png
+  link: /work/2048.html
+
 - name: Stochastic Perlin Noise
   image: /assets/app-img/perlin.png
   link: /work/perlin.html
