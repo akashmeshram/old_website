@@ -5,6 +5,10 @@
 - name: Shield Life
   image: /assets/app-img/slife.png
   link: /work/slife.html
+  
+- name: Deep News Classifier
+  image: /assets/app-img/news.png
+  link: https://github.com/vishwajeetkr/Deep_News_Classifier
 
 - name: Maze Generator
   image: /assets/app-img/maze.png
