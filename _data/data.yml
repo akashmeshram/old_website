@@ -49,3 +49,8 @@
 - name: Truchet’s tiling
   image: /assets/app-img/truchet.png
   link: /work/truchet.html
+  
+- name: TIC TAC TOE
+  image: /assets/app-img/ttt.png
+  link: /work/ttt.html
+
