@@ -46,7 +46,7 @@
   image: /assets/app-img/snake.png
   link: /work/snake.html
   
-- name: Mandelbrot-set
+- name: Mandelbrot set
   image: /assets/app-img/mbset.jpg
   link: https://akashmeshram.github.io/Mandelbrot-set/
 
