@@ -45,6 +45,10 @@
 - name: Snake Game
   image: /assets/app-img/snake.png
   link: /work/snake.html
+  
+- name: Mandelbrot-set
+  image: /assets/app-img/mbset.jpg
+  link: https://akashmeshram.github.io/Mandelbrot-set/
 
 - name: Truchet’s tiling
   image: /assets/app-img/truchet.png
