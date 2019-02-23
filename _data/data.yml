@@ -1,6 +1,10 @@
 - name: La Musique
   image: /assets/app-img/lamusic.png
   link: /work/lamusic.html
+  
+- name: Sketch Predictor
+  image: /assets/app-img/drw.png
+  link: /work/drw.html
 
 - name: Shield Life
   image: /assets/app-img/slife.png
