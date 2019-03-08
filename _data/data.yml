@@ -10,6 +10,10 @@
   image: /assets/app-img/slife.png
   link: /work/slife.html
   
+- name: Style Transfer
+  image: /assets/app-img/str.jpg
+  link: /work/str.html
+  
 - name: Deep News Classifier
   image: /assets/app-img/news.png
   link: https://github.com/vishwajeetkr/Deep_News_Classifier
