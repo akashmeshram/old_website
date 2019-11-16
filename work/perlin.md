@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Stochastic Perlin Noise
-launch: https://akashmeshram.github.io/STOCHASTIC-PERLIN-NOISE/
-source: https://github.com/akashmeshram/STOCHASTIC-PERLIN-NOISE
+launch: https://akashmeshram.github.io/Stochastic-Perlin-Noise/
+source: https://github.com/akashmeshram/Stochastic-Perlin-Noise
 tech: UI, WEB
 gif: /assets/app-gif/perlin.gif
 ---
