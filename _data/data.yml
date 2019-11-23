@@ -34,17 +34,25 @@
   image: /assets/app-img/slife.png
   link: /work/slife.html
 
-- name: Maze Generator
-  image: /assets/app-img/maze.png
-  link: /work/maze.html
+- name: CNT with Tersoff
+  image: /assets/app-img/nanotube.jpg
+  link: https://github.com/akashmeshram/CNT-with-Tersoff
+
+- name: 2048 Puzzle
+  image: /assets/app-img/2048.png
+  link: /work/2048.html
+
+- name: Microcanonical ensemble
+  image: /assets/app-img/esemble.jpg
+  link: https://github.com/akashmeshram/Simple-Microcanonical-ensemble
 
 - name: Lorenz Attractor
   image: /assets/app-img/lorenz.png
   link: /work/lorenz.html
 
-- name: 2048 Puzzle
-  image: /assets/app-img/2048.png
-  link: /work/2048.html
+- name: Maze Generator
+  image: /assets/app-img/maze.png
+  link: /work/maze.html
 
 - name: Stochastic Perlin Noise
   image: /assets/app-img/perlin.png
