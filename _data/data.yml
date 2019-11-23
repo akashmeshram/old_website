@@ -6,9 +6,9 @@
   image: /assets/app-img/drw.jpg
   link: /work/drw.html
 
-- name: Shield Life
-  image: /assets/app-img/slife.png
-  link: /work/slife.html
+- name: Lfractal
+  image: https://akashmeshram.github.io/Lfractal/Annotation.png
+  link: /work/lfractal.html
   
 - name: Style Transfer
   image: /assets/app-img/str.jpg
@@ -18,17 +18,25 @@
   image: /assets/app-img/news.png
   link: https://github.com/vishwajeetkr/Deep_News_Classifier
 
-- name: Maze Generator
-  image: /assets/app-img/maze.png
-  link: /work/maze.html
+- name: Devanagari matrix flow
+  image: /assets/app-img/hindu.png
+  link: /work/hindu.html
+
+- name: Bluetooth LE Analyzer
+  image: /assets/app-img/ble.jpg
+  link: https://github.com/akashmeshram/Bluetooth-LE-Analyzer
 
 - name: Firefly Sync
   image: /assets/app-img/firefly.png
   link: /work/firefly.html
 
-- name: Devanagari matrix flow
-  image: /assets/app-img/hindu.png
-  link: /work/hindu.html
+- name: Shield Life
+  image: /assets/app-img/slife.png
+  link: /work/slife.html
+
+- name: Maze Generator
+  image: /assets/app-img/maze.png
+  link: /work/maze.html
 
 - name: Lorenz Attractor
   image: /assets/app-img/lorenz.png
