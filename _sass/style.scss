@@ -7,6 +7,15 @@
    ************************************************************************** */
 
 /* =============================================================================
+VARIABLES
+========================================================================== */
+
+$primary-color: rgb(49, 31, 25);
+$secondary-color: rgba(49, 31, 25, 0.7);
+$fang-color: rgb(255, 132, 0);
+$bg-color: rgb(241, 235, 223);
+
+/* =============================================================================
    GLOBAL STYLING
    ========================================================================== */
 
@@ -28,17 +37,13 @@ a {
 }
 
 html {
-  width: auto;
-  height: auto;
-  background: rgb(253, 253, 253);
-  font-family: "Century Gothic", "Cen Got", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
-  width: auto;
-  height: auto;
-  background: rgb(253, 253, 253);
+  width: 100vw;
+  height: 100vh;
+  background: $bg-color;
   font-family: "Century Gothic", "Cen Got", sans-serif;
   -webkit-font-smoothing: antialiased;
   &::-webkit-scrollbar {
@@ -48,11 +53,10 @@ body {
   -ms-overflow-style: none;
 }
 
-@keyframes loadimg {
+@keyframes loading {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
@@ -75,59 +79,55 @@ body {
 
 header {
   flex-direction: column;
-  text-transform: uppercase;
   position: sticky;
   top: 0;
+
   h1 {
-    font-weight: normal;
-    text-align: center;
-    font-size: 54px;
-    letter-spacing: 6px;
-    line-height: 65.88px;
-    margin-top: 30px;
-    margin-bottom: 10px;
     display: none;
   }
 }
 
-.navbar {
-  background-color: rgba(244, 244, 244, 0.9);
-  border-bottom: rgb(54, 14, 54) solid 1px;
-  padding-bottom: 10px;
-  font-size: 20px;
-  letter-spacing: 2px;
-  font-weight: 200;
-  line-height: 21.96px;
-}
+nav {
+  background-color: rgba(256, 256, 256, 0);
+  border-bottom: $primary-color solid 1px;
+  padding: 10px;
+  
+  span {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    i {
+      color: $primary-color;
+    }
+  }
 
-.main-nav {
-  list-style-type: none;
-  display: none;
-}
+  .logo {
+    color: $primary-color;
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 21.96px;
+    text-transform: uppercase;
+  }
 
-.nav-links, .logo {
-  color: rgb(100, 100, 100);
-}
+  ul {
+    list-style-type: none;
+    display: none;
 
-.main-nav li {
-  text-align: center;
-  margin: 15px auto;
-}
-
-.logo {
-  display: inline-block;
-  font-size: 22px;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-.navbar-toggle {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 24px;
+    li {
+      color: $secondary-color;
+      font-size: 20px;
+      font-weight: 200;
+      letter-spacing: 2px;
+      line-height: 21.96px;
+      text-align: center;     
+      text-transform: uppercase;
+      margin: 15px auto;
+    }
+  }
 }
 
 .active {
@@ -137,11 +137,22 @@ header {
 @media screen and (min-width: 768px) {
   header {
     position: static;
+
     h1 {
       display: block;
+      color: $primary-color;
+      font-weight: normal;
+      text-align: center;
+      font-size: 54px;
+      letter-spacing: 6px;
+      line-height: 65.88px;
+      text-transform: uppercase;
+      padding-top: 30px;
+      padding-bottom: 10px;
     }
   }
-  .navbar {
+
+  nav {
     display: flex;
     background-color: transparent;
     border: none;
@@ -149,23 +160,23 @@ header {
     margin: auto;
     padding-bottom: 0;
     align-items: center;
-  }
-  .main-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    li {
-      margin: 0;
+
+    .logo, span {
+      display: none;
     }
-  }
-  .nav-links {
-    margin: auto 10px;
-  }
-  .logo, .navbar-toggle {
-    display: none;
-  }
-  .logo:hover, .nav-links:hover {
-    color: rgb(255, 132, 0);
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      li {
+        margin: auto 10px;
+        :hover {
+          color: $fang-color;
+        }
+      }
+    }
   }
 }
 
@@ -180,7 +191,7 @@ header {
     width: auto;
     margin: 0px 10px;
     margin-top: 60px;
-    animation: loadimg 2s ease 1;
+    animation: loading 2s ease 1;
   }
   div {
     margin: 30px auto;
@@ -218,7 +229,7 @@ header {
     height: auto;
     width: auto;
     margin: auto 10px;
-    animation: loadimg 2s ease 1;
+    animation: loading 2s ease 1;
   }
   div {
     padding: 15px 40px 0px 40px;
@@ -248,7 +259,7 @@ header {
       height: 280.8px;
       width: 374.4px;
       margin: auto 10px;
-      animation: loadimg 2s ease 1;
+      animation: loading 2s ease 1;
     }
   }
 }
@@ -279,7 +290,7 @@ header {
     width: inherit;
     height: 200px;
     background-color: grey;
-    animation: loadimg 1s ease 1;
+    animation: loading 1s ease 1;
   }
   #child {
     display: flex;
