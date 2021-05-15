@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: About
-  link: /pages/about.html
+  link: /about/
 - name: Portfolio
-  link: /pages/work.html
+  link: /work/
 # - name: Blog
 #   link: /pages/blog.html
 - name: Contact
-  link: /pages/contact.html
+  link: /contact/
