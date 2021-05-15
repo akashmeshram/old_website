@@ -185,24 +185,30 @@ nav {
    ========================================================================== */
 
 .intro-page {
+  display: flex;
   flex-direction: column;
-  img {
-    height: auto;
-    width: auto;
-    margin: 0px 10px;
-    margin-top: 60px;
+  align-items: center;
+
+  .hero-background {
+    height: 400px;
+    width: 80%;
+    background-image: url('../images/mobile.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
     animation: loading 2s ease 1;
+    margin: 40px 0;
   }
-  div {
-    margin: 30px auto;
+
+  a {
+    display: block;
+    margin-top: 40px;
     text-align: center;
     font-size: 23px;
     line-height: 28.06px;
     letter-spacing: normal;
     font-weight: 400;
-  }
-  a {
-    color: rgb(255, 132, 0);
+    color: $fang-color;
     &:hover {
       color: rgb(0, 0, 0);
     }
@@ -210,11 +216,12 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-  .intro-page img {
-    height: auto;
-    width: 540px;
-    margin: 0px auto;
-    margin-top: 60px;
+  .intro-page {
+    .hero-background {
+      margin-top: 100px;
+      width: 600px;
+      background-image: url('../images/desktop.jpg');
+    }
   }
 }
 
