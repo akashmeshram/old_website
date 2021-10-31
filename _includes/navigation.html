@@ -6,7 +6,7 @@
     <ul class="main-nav" id="js-menu">
         {% for item in site.data.navigation %}
         <li>
-            <a class="nav-links" href="{{ item.link }}" {% if page.url == item.link %}style="color: rgb(255, 132, 0);"{% endif %}>
+            <a class="nav-links" href="{{ site.url }}{{ item.link }}" {% if page.url == item.link %}style="color: rgb(255, 132, 0);"{% endif %}>
 				      {{ item.name }}
 				    </a>
         </li>

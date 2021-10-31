@@ -1,92 +1,92 @@
 - name: La Musique
-  image: /assets/app-img/lamusic.png
-  link: /work/lamusic.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/lamusic.png
+  link: https://akashmeshram.github.io/old_website/work/lamusic.html
   
 - name: Sketch Predictor
-  image: /assets/app-img/drw.jpg
-  link: /work/drw.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/drw.jpg
+  link: https://akashmeshram.github.io/old_website/work/drw.html
 
 - name: Lfractal
   image: https://akashmeshram.github.io/Lfractal/Annotation.png
-  link: /work/lfractal.html
+  link: https://akashmeshram.github.io/old_website/work/lfractal.html
 
 - name: Deep News Classifier
-  image: /assets/app-img/news.png
+  image: https://akashmeshram.github.io/old_website/assets/app-img/news.png
   link: https://github.com/vishwajeetkr/Deep_News_Classifier
 
 - name: Youtube Playlist Visualizer
-  image: /assets/app-img/youtube.png
+  image: https://akashmeshram.github.io/old_website/assets/app-img/youtube.png
   link: https://akashmeshram.github.io/Youtube-Playlist-Visualizer/
 
 - name: Style Transfer
-  image: /assets/app-img/str.jpeg
-  link: /work/str.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/str.jpeg
+  link: https://akashmeshram.github.io/old_website/work/str.html
 
 - name: Devanagari matrix flow
-  image: /assets/app-img/hindu.png
-  link: /work/hindu.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/hindu.png
+  link: https://akashmeshram.github.io/old_website/work/hindu.html
 
 - name: Ogura Hyakunin Isshu
   image: https://i2.wp.com/itsjapantime.com/wp-content/uploads/2018/07/karuta1.jpg?w=659&ssl=1
-  link: /work/karuta.html
+  link: https://akashmeshram.github.io/old_website/work/karuta.html
 
 - name: Firefly Sync
-  image: /assets/app-img/firefly.png
-  link: /work/firefly.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/firefly.png
+  link: https://akashmeshram.github.io/old_website/work/firefly.html
 
 - name: Bluetooth LE Analyzer
-  image: /assets/app-img/ble.jpg
+  image: https://akashmeshram.github.io/old_website/assets/app-img/ble.jpg
   link: https://github.com/akashmeshram/Bluetooth-LE-Analyzer
 
 - name: Shield Life
-  image: /assets/app-img/slife.png
-  link: /work/slife.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/slife.png
+  link: https://akashmeshram.github.io/old_website/work/slife.html
 
 - name: CNT with Tersoff
-  image: /assets/app-img/nanotube.jpg
+  image: https://akashmeshram.github.io/old_website/assets/app-img/nanotube.jpg
   link: https://github.com/akashmeshram/CNT-with-Tersoff
 
 - name: 2048 Puzzle
-  image: /assets/app-img/2048.png
-  link: /work/2048.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/2048.png
+  link: https://akashmeshram.github.io/old_website/work/2048.html
 
 - name: Microcanonical ensemble
-  image: /assets/app-img/esemble.jpg
+  image: https://akashmeshram.github.io/old_website/assets/app-img/esemble.jpg
   link: https://github.com/akashmeshram/Simple-Microcanonical-ensemble
 
 - name: Lorenz Attractor
-  image: /assets/app-img/lorenz.png
-  link: /work/lorenz.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/lorenz.png
+  link: https://akashmeshram.github.io/old_website/work/lorenz.html
 
 - name: Maze Generator
-  image: /assets/app-img/maze.png
-  link: /work/maze.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/maze.png
+  link: https://akashmeshram.github.io/old_website/work/maze.html
 
 - name: Stochastic Perlin Noise
-  image: /assets/app-img/perlin.png
-  link: /work/perlin.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/perlin.png
+  link: https://akashmeshram.github.io/old_website/work/perlin.html
 
 - name: 3-D Biome
-  image: /assets/app-img/biome.png
-  link: /work/biome.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/biome.png
+  link: https://akashmeshram.github.io/old_website/work/biome.html
 
 - name: ML Sketch Brush
-  image: /assets/app-img/robot.png
-  link: /work/robot.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/robot.png
+  link: https://akashmeshram.github.io/old_website/work/robot.html
 
 - name: Snake Game
-  image: /assets/app-img/snake.png
-  link: /work/snake.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/snake.png
+  link: https://akashmeshram.github.io/old_website/work/snake.html
   
 - name: Mandelbrot set
-  image: /assets/app-img/mbset.jpg
+  image: https://akashmeshram.github.io/old_website/assets/app-img/mbset.jpg
   link: https://akashmeshram.github.io/Mandelbrot-set/
 
 - name: Truchet’s tiling
-  image: /assets/app-img/truchet.png
-  link: /work/truchet.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/truchet.png
+  link: https://akashmeshram.github.io/old_website/work/truchet.html
   
 - name: TIC TAC TOE
-  image: /assets/app-img/ttt.png
-  link: /work/ttt.html
+  image: https://akashmeshram.github.io/old_website/assets/app-img/ttt.png
+  link: https://akashmeshram.github.io/old_website/work/ttt.html
 
