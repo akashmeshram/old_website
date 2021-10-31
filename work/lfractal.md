@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Lfractal
-launch: https://akashmeshram.github.io/Lfractal/
-source: https://github.com/akashmeshram/Lfractal
+launch: https://akashmeshram.github.io/Lfractal-html-version/
+source:  https://github.com/akashmeshram/Lfractal-html-version/lsystem.gif
 tech: p5.js, HTML, Javascript, CSS
 gif: https://akashmeshram.github.io/Lfractal/lsystem.gif
 ---
